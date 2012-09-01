@@ -21,7 +21,7 @@ Todo
 Things that need completing are:
 
 * Writing views for everything
-* Creating a layout and colour scheme (<a href="tf2trade/application/views/default.php">application/views/default.php</a>)
+* Creating a layout and colour scheme [application/views/default.php](tf2trade/tree/master/application/views/default.php)
 * Search functions for users/trades (application/controllers/search)
 * Documentation so other people can contribute
 * Use ajax to submit trades/comments/searches alongside the above API.
