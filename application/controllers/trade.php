@@ -1,6 +1,6 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Trade extends CI_Controller {
+class Trade extends MY_Controller {
 
     function __construct() {
         $this->data['title'] = "Trade";
