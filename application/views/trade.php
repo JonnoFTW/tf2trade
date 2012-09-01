@@ -1,6 +1,6 @@
 <?
 
-// This is the view for a trade
+// This is the view for a single trade
 
 echo $this->load->view('user_link',$user,true)." at ".$this->load->view('show_date',$time,true);
 echo heading("Buying",2);

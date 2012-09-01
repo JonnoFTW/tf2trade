@@ -2,7 +2,9 @@
 
 class User extends MY_Controller {
 
-    function __construct() {
+
+    public function __construct() {
+        parent::__construct();
         $this->data['title'] = "User Profile";
     }
 	/**
@@ -17,9 +19,10 @@ class User extends MY_Controller {
             $this->data['content'] = "Please Specify a user";
         } else {
             $userInfo = $this->getSteamApi('ISteamUser/GetPlayerBans/v1',['steamids'=>$id64])['players'][0];
-            $this->data['trade'] = $this->mongo_db->where([['user']=>['id64'=>$id64]])->get('trades');
-            $this->data['content'] =  $this->load->view('user',$userInfo,true);
-            $this->data['content'] .= $this->load->view('trade',$this->data,true);
+            $trades = $this->mongo_db->where(['user'=>['id64'=>$id64]])->get('trades');
+            $this->data['content'] =  $this->load->view('user_status',$userInfo,true);
+            foreach($trades as $t)
+                $this->data['content'] .= $this->load->view('trade',$t,true);
         }
         $this->load->view('default',$this->data);
     }

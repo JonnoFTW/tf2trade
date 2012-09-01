@@ -22,9 +22,9 @@ Things that need completing are:
 
 * Writing views for everything
 * Creating a layout and colour scheme [application/views/default.php](tf2trade/tree/master/application/views/default.php)
-* Search functions for users/trades (application/controllers/search)
+* Search functions for users/trades ([application/controllers/search](tf2trade/tree/master/application/controllers/search.php))
 * Documentation so other people can contribute
-* Use ajax to submit trades/comments/searches alongside the above API.
+* Use ajax to submit trades/comments/searches alongside the above API. This needs to be written into views.
 * Steam login using openid
 * Updating the local itemschema whenever steam updates it with new icons and information
 * Showing icons for items in backpack and trade views
