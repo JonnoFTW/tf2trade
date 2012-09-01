@@ -218,3 +218,40 @@ DEBUG - 2012-09-01 19:45:04 --> Input Class Initialized
 DEBUG - 2012-09-01 19:45:04 --> Global POST and COOKIE data sanitized
 DEBUG - 2012-09-01 19:45:04 --> Language Class Initialized
 ERROR - 2012-09-01 19:45:07 --> Severity: Notice  --> Undefined property: User::$mongo_db C:\tfserver\trade\application\controllers\user.php 21
+DEBUG - 2012-09-01 20:10:45 --> Config Class Initialized
+DEBUG - 2012-09-01 20:10:45 --> Hooks Class Initialized
+DEBUG - 2012-09-01 20:10:45 --> Utf8 Class Initialized
+DEBUG - 2012-09-01 20:10:45 --> UTF-8 Support Enabled
+DEBUG - 2012-09-01 20:10:45 --> URI Class Initialized
+DEBUG - 2012-09-01 20:10:45 --> Router Class Initialized
+DEBUG - 2012-09-01 20:10:45 --> Output Class Initialized
+DEBUG - 2012-09-01 20:10:45 --> Security Class Initialized
+DEBUG - 2012-09-01 20:10:45 --> Input Class Initialized
+DEBUG - 2012-09-01 20:10:45 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-09-01 20:10:45 --> Language Class Initialized
+ERROR - 2012-09-01 20:10:48 --> Severity: Notice  --> Undefined property: User::$mongo_db C:\tfserver\trade\application\controllers\user.php 20
+DEBUG - 2012-09-01 20:32:34 --> Config Class Initialized
+DEBUG - 2012-09-01 20:32:34 --> Hooks Class Initialized
+DEBUG - 2012-09-01 20:32:34 --> Utf8 Class Initialized
+DEBUG - 2012-09-01 20:32:34 --> UTF-8 Support Enabled
+DEBUG - 2012-09-01 20:32:34 --> URI Class Initialized
+DEBUG - 2012-09-01 20:32:34 --> Router Class Initialized
+DEBUG - 2012-09-01 20:32:34 --> Output Class Initialized
+DEBUG - 2012-09-01 20:32:34 --> Security Class Initialized
+DEBUG - 2012-09-01 20:32:34 --> Input Class Initialized
+DEBUG - 2012-09-01 20:32:34 --> Global POST and COOKIE data sanitized
+DEBUG - 2012-09-01 20:32:34 --> Language Class Initialized
+DEBUG - 2012-09-01 20:32:34 --> Loader Class Initialized
+DEBUG - 2012-09-01 20:32:34 --> Helper loaded: html_helper
+DEBUG - 2012-09-01 20:32:34 --> Helper loaded: url_helper
+DEBUG - 2012-09-01 20:32:34 --> Helper loaded: form_helper
+DEBUG - 2012-09-01 20:32:34 --> Config file loaded: application/config/mongodb.php
+DEBUG - 2012-09-01 20:32:34 --> Session Class Initialized
+DEBUG - 2012-09-01 20:32:34 --> Helper loaded: string_helper
+DEBUG - 2012-09-01 20:32:34 --> Session routines successfully run
+DEBUG - 2012-09-01 20:32:34 --> Controller Class Initialized
+DEBUG - 2012-09-01 20:32:34 --> Table Class Initialized
+DEBUG - 2012-09-01 20:32:38 --> File loaded: application/views/backpack.php
+DEBUG - 2012-09-01 20:32:38 --> File loaded: application/views/default.php
+DEBUG - 2012-09-01 20:32:38 --> Final output sent to browser
+DEBUG - 2012-09-01 20:32:38 --> Total execution time: 4.0340
