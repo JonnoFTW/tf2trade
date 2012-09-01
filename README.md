@@ -10,8 +10,10 @@ You will need to install the following:
 
 * [PHP 5.4+](http://php.net/downloads.php)
 * A Webserver (testing is done on Abyss on Windows x64)
-* [Mongodb (latest version)](http://www.mongodb.org/downloads) -- testing is done on 
+* [Mongodb (latest version)](http://www.mongodb.org/downloads) -- testing is done on 2.07
 * Mongodb plugin for php ([Download of plugin](https://github.com/mongodb/mongo-php-driver/downloads), [Installation](http://php.net/manual/en/mongo.installation.php))
+* A fork of this repo and your webserver set to host it!
+* Read application/config/mongodb.php
 
 Todo
 ----
@@ -19,7 +21,7 @@ Todo
 Things that need completing are:
 
 * Writing views for everything
-* Creating a layout and colour scheme (application/views/default.php)
+* Creating a layout and colour scheme (<a href="tf2trade/application/views/default.php">application/views/default.php</a>)
 * Search functions for users/trades (application/controllers/search)
 * Documentation so other people can contribute
 * Use ajax to submit trades/comments/searches alongside the above API.
